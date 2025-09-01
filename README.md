@@ -18,3 +18,4 @@
   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg" height="30" alt="csharp logo"  />
 </div>
 
+![Snake animation](https://github.com/cristalblues393-commits/cristalblues393-commits/blob/output/github-contribution-grid-snake.svg)
