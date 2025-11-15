@@ -6,9 +6,6 @@
 
 <h1 align="center">Bem-vindo(a) ao meu perfil! 🩷✨</h1>
 
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com/?font=Fira+Code&size=25&duration=4000&pause=1000&center=true&vCenter=true&width=435&lines=Perfil+fofinho+%F0%9F%92%96;Cheio+de+amor+e+Hello+Kitty+%F0%9F%90%B1;Apaixonado(a)+por+c%C3%B3digos+e+arte+%E2%9C%A8" alt="Typing SVG" />
-</p>
 
 ---
 
