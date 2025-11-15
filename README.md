@@ -31,7 +31,7 @@
   <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Hello_Kitty_1976.svg/512px-Hello_Kitty_1976.svg.png" alt="Hello Kitty" width="200">
 </p>
 
-<h1 align="center"𝓑𝓮𝓶-𝓿𝓲𝓷𝓭𝓸(𝓪) 𝓪𝓸 𝓶𝓮𝓾 𝓹𝓮𝓻𝓯𝓲𝓵! 🩷✨</h1>
+<h1 align="center"𝓑𝓮𝓶-𝓿𝓲𝓷𝓭𝓸(𝓪) 𝓪𝓸 𝓶𝓮𝓾 𝓹𝓮𝓻𝓯𝓲𝓵!🩷✨</h1>
 
 
 ---
