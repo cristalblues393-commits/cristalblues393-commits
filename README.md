@@ -20,8 +20,8 @@
 ```python
 # print fofinho para o mundo dos devs
 print("Bem-vindo(a)! Muita fofura, Hello Kitty e código por aqui! 🩷🐱✨")
-<p align="center">Sinta-se à vontade para explorar meus repositórios!<br/>
-<img src="https://media.giphy.com/media/Ef8hRbyuT2nAc/giphy.gif" alt="Kitty Piscar" width="50" /></p>
+>Sinta-se à vontade para explorar meus repositórios!<br/>
+ /></p>
 ```
 <h3 align="center">Obrigada por visitar! 💖</h3>
 <p align="center">
