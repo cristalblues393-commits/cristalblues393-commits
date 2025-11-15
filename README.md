@@ -47,14 +47,14 @@
     ⠀⠀⢣⡀⠀⢘⣦⢴⣻⡀⠀⠀⡸⠀⠀
     ⠀⠀⠀⠉⠒⠉⠀⠀⠀⠈⠒⠉ˊ˗ ⠀
 </pre>
-<pre align="center">
-   ⢸⣦⡀⠀⠀⠀⠀⢀⡄
-⠀⠀⠀⢸⣏⠻⣶⣤⡶⢾⡿⠁
- ⠀⣀⣼⠷⠀⠀⠁⢀⣿⠃⠀
-⠴⣾⣯⣅⣀⠀⠀ ⠀⠈⢻⣦⡀
-⠀⠀⠀⠉⢻⡇⣤⣾⣿⣷⣿⣿
-⠀⠀⠀⠀⠸⣿⡿⠏⠀⠀⠀⠀
-⠀⠀⠀⠀⠀⠟⠁⠀⠀⠀⠀
-</pre>
+<!-- Gatinhos fofinhos nos cantos 🩷 -->
 
----
+<p align="left">
+  <img src="https://media.giphy.com/media/krQ63ZQKgGMFq/giphy.gif" alt="Gatinho se lambendo à esquerda" width="80"/>
+</p>
+
+<p align="right">
+  <img src="https://media.giphy.com/media/MF2IriQ5ti7gE/giphy.gif" alt="Gatinho se lambendo à direita" width="80"/>
+</p>
+
+<!-- (Pode adicionar o resto do perfil aqui embaixo) -->
