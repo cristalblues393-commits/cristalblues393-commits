@@ -1,60 +1,39 @@
-<!-- Fofurice no perfil 🩷 -->
+import requests
+import socket
+import whois
+import datetime
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0b/Hello_Kitty_1976.svg/512px-Hello_Kitty_1976.svg.png" alt="Hello Kitty" width="180"/>
-</p>
+# ----------------------------------------------------
+# Visual hacker roxo
+# ----------------------------------------------------
+BANNER = r"""
+██╗     ██╗   ██╗ █████╗ ██╗        ██████╗ ███╗   ██╗███████╗
+██║     ██║   ██║██╔══██╗██║        ██╔══██╗████╗  ██║██╔════╝
+██║     ██║   ██║███████║██║        ██████╔╝██╔██╗ ██║█████╗  
+██║     ██║   ██║██╔══██║██║        ██╔══██╗██║╚██╗██║██╔══╝  
+███████╗╚██████╔╝██║  ██║███████╗   ██████╔╝██║ ╚████║███████╗
+╚══════╝ ╚═════╝ ╚═╝  ╚═╝╚══════╝   ╚═════╝ ╚═╝  ╚═══╝╚══════╝
+                   OSINT SCANNER v1.0
+"""
 
-<h1 align="center"><span style="font-family: 'Caveat', cursive;">𝓑𝓮𝓶-𝓿𝓲𝓷𝓭𝓸(𝓪) 𝓪𝓸 𝓶𝓮𝓾 𝓹𝓮𝓻𝓯𝓲𝓵!🩷✨</span></h1>
+print(BANNER)
 
-<p align="center">
-  <img src="https://media.giphy.com/media/dzbnroVuvItkociQvJ/giphy.gif" alt="Kitty Love" width="100"/>
-  <img src="https://media.giphy.com/media/l2YWlKlq6ocIem6RG/giphy.gif" alt="Kitty Star" width="100"/>
-  <img src="https://media.giphy.com/media/MfVhG0W6FQpmF1nYs5/giphy.gif" alt="Kitty Kiss" width="100"/>
-</p>
 
----
+def whois_lookup(domain):
+    try:
+        data = whois.whois(domain)
+        return data
+    except:
+        return "Erro na consulta WHOIS."
 
-<p align="center"><b>SoftPixel 🎀</b></p>---
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Fofura-100%25-FF62A5?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Hello%20Kitty%C2%AE-Lover-FFD1EA?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/C%C3%B3digos-Python%2C%20Javascript-FFEEF3?style=for-the-badge" />
-</div>
-
----
-
-<p align="center">
-  <img src="https://github.com/cristalblues393-commits/cristalblues393-commits/blob/output/github-contribution-grid-snake.svg" alt="snake"/>
-</p>
-
-<h3 align="center">Obrigada por visitar! 💖</h3>
-<p align="center"><i>Sinta-se à vontade para explorar meus repositórios!</i><br/>
-<img src="https://media.giphy.com/media/Ef8hRbyuT2nAc/giphy.gif" alt="Kitty Piscar" width="50"/></p>
-
----
-
-<!-- Arte ASCII de Hello Kitty, fofinha para decorar o rodapé -->
-
-<pre align="center">
-    ⠀⢠⠖⠤⢤⠤⠤⡜⢁⣕⣍⣀⣳⡀⠀
-    ⠀⢸⡀⠀⠀⠀⠀⠧⠸⠧⣀⡿⢆⡧⠀
-    ⠀⡸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠉⢉⡧⠤
-    ⠐⢳⠂⠀⠶⠀⠀⡠⡀⠀⠛⠀⠐⡖⠒
-    ⠀⢉⠧⣂⣀⣠⣔⠯⢷⣀⣀⣠⠞⠉⠁
-    ⠀⠀⠀⡏⠀⢇⠘⠒⠦⢮⠁⠈⡆⠀⠀
-    ⠀⠀⡜⠑⠒⡎⠀⠀⠀⣨⠖⠚⢱⠀⠀
-    ⠀⠀⢣⡀⠀⢘⣦⢴⣻⡀⠀⠀⡸⠀⠀
-    ⠀⠀⠀⠉⠒⠉⠀⠀⠀⠈⠒⠉ˊ˗ ⠀
-</pre>
-<!-- Gatinhos fofinhos nos cantos 🩷 -->
-
-<p align="left">
-  <img src="https://media.giphy.com/media/krQ63ZQKgGMFq/giphy.gif" alt="Gatinho se lambendo à esquerda" width="80"/>
-</p>
-
-<p align="right">
-  <img src="https://media.giphy.com/media/MF2IriQ5ti7gE/giphy.gif" alt="Gatinho se lambendo à direita" width="80"/>
-</p>
-
-<!-- (Pode adicionar o resto do perfil aqui embaixo) -->
+def http_info(url):
+    try:
+        r = requests.get(url, timeout=5)
+        return {
+            "status": r.status_code,
+            "headers": r.headers,
+            "elapsed": r.elapsed.total_seconds()
+        }
+    except:
+        return "Erro ao acessar o arquivo.
