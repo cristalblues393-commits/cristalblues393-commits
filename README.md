@@ -1,1 +1,1 @@
-![Gatinho fofinho](https://media.giphy.com/media/krQ63ZQKgGMFq/giphy.gif)
+https://giphy.com/gifs/blowing-a-kiss-VF65SrQlmClUc
