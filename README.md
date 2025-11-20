@@ -1,1 +1,1 @@
-https://giphy.com/gifs/blowing-a-kiss-VF65SrQlmClUc
+<img src="https://media.giphy.com/media/VF65SrQlmClUc/giphy.gif" width="250" />
