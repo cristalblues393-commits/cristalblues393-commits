@@ -7,4 +7,5 @@
 <p align="center">🌷 Criando, aprendendo e evoluindo todos os dias 🌷</p>
 
 
-<img src="https://media.giphy.com/media/VF65SrQlmClUc/giphy.gif" width="250" />
+
+<img src="https://tenor.com/view/bueno-pero-alonso-berlin-la-casa-de-papel-esta-bien-gif-17102655.gif" alt="Bueno pero Alonso está bien" width="250" />
