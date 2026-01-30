@@ -1,3 +1,7 @@
+<img src="https://media1.giphy.com/media/v1.Y2lkPTZjMDliOTUydDU5Zmw5azBtZzJyZ2Z5a25rdWk3Nms2eHl5MmFkMzA5ZjJ2OGFhYiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/242zpyuzTjjrDDopRj/giphy.gif" alt="GIF animado" width="250" />
+
+
+
 
 
 <h2 align="center">🌸 Bem-vind@ ao meu perfil! 🌸</h2>
